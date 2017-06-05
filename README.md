@@ -7,7 +7,7 @@ It is a third party Oauth2 authenticator solution, meaning it allows the protect
 This is application is built using Grails and NodeJS. While grails stack provides the UI and the API Service, NodeJS abstracts all the transactions with Firebase APIs. For OS platform, I'd recommend a OpenSuse or Ubuntu 64-bit. IMO it whould work seamlessly on any Linux flavor. 
 
 
-<h1>Setting up your environment for this project?</h1> 
+<h1>Setting up your environment for this project</h1> 
 
 <h2> Installation </h2>
 After you have cloned this repo to your home directory, Please execute install commands in the following order by going into the install folder 'third-party-fed-auth/install'
