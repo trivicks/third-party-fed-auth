@@ -2,6 +2,7 @@
 
 <h2>What is this application about?</h2>
 It is a third party Oauth2 authenticator solution, meaning it allows the protected app to let its users sign up using Google or Facebook account. 
+
 * It is basically a single API in the backend which takes a token issued to the user/client and authenticates it with Google/Facebook. 
 * After successful authentication of the Token with the provider, it creates a new user entry in Firebase Auth System with a new unique user ID ( which will be unique across all providers ). Users who attempt to use the same email ID with different TPAs will be registered  only once, not for every TPA.
 * This API then fetches the user information like name, email, thumbnail etc and stores them in a Firebase Database. 
