@@ -53,10 +53,10 @@ Install NodeJS and node modules
 
 <h2> Starting the application </h2>
 
-* There's a script in the root folder called 'start_tpa.sh' which on execution will start grails and nodejs service as daemons
+* There's a script in the root folder called <b>'start_tpa.sh'</b> which on execution will start grails and nodejs service as daemons
 
 <h2> Stopping the application </h2>
 
-* There's another script called 'stop_tpa.sh' which kills both services
+* There's another script called <b>'stop_tpa.sh'</b> which kills both services
 
 
