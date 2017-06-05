@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cd ~/grails-projects/tplogin
+cd ~/third-party-fed-auth/grails-projects/tplogin
 nohup grails run-app -https &
 
-cd ~/nodejs-projects
+cd ~/third-party-fed-auth/nodejs-projects
 nohup nodejs node-firebase.js &
