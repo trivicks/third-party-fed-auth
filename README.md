@@ -49,8 +49,14 @@ Install NodeJS and node modules
 * The service account JSON file is in the nodejs project folder. If the service account details change for this project, obvioulsy the new JSON has to be download from Firebase console and provided to the script
 * One last thing on the NodeJS module is, since it is secure service on https, I have generated my own set of keys. These are present in the project directory as cert.pem and key.pem. For the requests from Grails service to the NodeJS to be honored, the cert.pem has to be added to the default CA keystore of the JRE version being used to run the grails project. Else all the request to NodeJS service will fail. 
 
-<h1>Setting up your environment for this project</h1> 
+<h1>Execution</h1> 
 
-<h2> Installation </h2>
+<h2> Starting the application </h2>
+
+* There's a script in the root folder called 'start_tpa.sh' which on execution will start grails and nodejs service as daemons
+
+<h2> Stopping the application </h2>
+
+* There's another script called 'stop_tpa.sh' which kills both services
 
 
