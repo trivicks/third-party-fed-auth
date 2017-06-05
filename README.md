@@ -1,12 +1,12 @@
 # third-party-fed-auth
 
-<b>What is this application about?</b> </br>
+<h2>What is this application about?</h2>
 It is a third party Oauth2 authenticator solution, meaning it allows the protected app to let its users sign up using Google or Facebook account. 
 * It is basically a single API in the backend which takes a token issued to the user/client and authenticates it with Google/Facebook. 
 * After successful authentication of the Token with the provider, it creates a new user entry in Firebase Auth System with a new unique user ID ( which will be unique across all providers ). Users who attempt to use the same email ID with different TPAs will be registered  only once, not for every TPA.
 * This API then fetches the user information like name, email, thumbnail etc and stores them in a Firebase Database. 
 
-<b>Tech stack?</b> </br>
+<h2>Tech stack used to build this solution</h2>
 This is application is built using Grails and NodeJS. While grails stack provides the UI and the API Service, NodeJS abstracts all the transactions with Firebase APIs. For OS platform, I'd recommend a OpenSuse or Ubuntu 64-bit. IMO it whould work seamlessly on any Linux flavor. 
 
 
