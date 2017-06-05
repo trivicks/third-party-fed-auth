@@ -39,11 +39,11 @@ Install NodeJS and node modules
 * ./install-node-modules.sh
 
 <h2> Configuration </h2>
-* Much of the integration parameters required to talk to Facebook and Google for Token verification are being taken in through the UI. These are:
-  ** Google Client ID
-  ** Google API Key
-  ** Facebook APP ID
 
+* Much of the integration parameters required to talk to Facebook and Google for Token verification are being taken in through the UI. These are:
+  * Google Client ID
+  * Google API Key
+  * Facebook APP ID
 * That leaves us with only Firebase integration config. The Firebase URL is hardcoded in the firebase nodejs service file. In case you wish to use a different Firebase project, then the URL has to be edited in the JS file
 * The service account JSON file is in the nodejs project folder. If the service account details change for this project, obvioulsy the new JSON has to be download from Firebase console and provided to the script
 * One last thing on the NodeJS module is, since it is secure service on https, I have generated my own set of keys. These are present in the project directory as cert.pem and key.pem. For the requests from Grails service to the NodeJS to be honored, the cert.pem has to be added to the default CA keystore of the JRE version being used to run the grails project. Else all the request to NodeJS service will fail. 
