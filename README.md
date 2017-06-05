@@ -11,6 +11,7 @@ This is application is built using Grails and NodeJS. While grails stack provide
 
 <h2> Installation </h2>
 After you have cloned this repo to your home directory, Please execute install commands in the following order by going into the install folder 'third-party-fed-auth/install'
+
 ./install-sdk-man.sh
 source "~/.sdkman/bin/sdkman-init.sh"
 
